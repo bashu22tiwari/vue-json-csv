@@ -19,7 +19,6 @@
   ],
   "dependencies": {
     "file-saver": "^2.0.5",
-    "ionic-sdk": "github:bashu22tiwari/ionic-sdk",
     "lodash.mapkeys": "^4.6.0",
     "lodash.pick": "^4.4.0",
     "lodash.pickby": "^4.6.0",
