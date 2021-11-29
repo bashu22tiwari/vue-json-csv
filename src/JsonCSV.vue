@@ -171,6 +171,7 @@ export default {
     },
 
     generate() {
+      console.log('Generate is being called')
       this.$emit("export-started");
       const dataExport = this.exportableData;
 
