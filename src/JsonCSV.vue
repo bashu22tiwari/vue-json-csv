@@ -171,15 +171,15 @@ export default {
     },
 
     generate() {
-      console.log('Generate is being called')
+      
       this.$emit("export-started");
       const dataExport = this.exportableData;
-
+      console.log("Generate is being called");
       if (!dataExport) {
         console.error("No data to export");
         return;
       }
-
+      console.log("Generate is being called");
       let csv = unparse(
         dataExport,
         Object.assign(
