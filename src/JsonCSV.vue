@@ -1,6 +1,6 @@
 <template>
   <div :id="idName" @click="generate">
-    <slot>Download {{name}}</slot>
+    <slot v-bind:generate="generate">Download {{name}}</slot>
   </div>
 </template>
 
