@@ -1,6 +1,6 @@
 <template>
   <div :id="idName" @click="generate">
-    <slot @click="generate">Download {{name}}</slot>
+    <!-- <slot @click="generate">Download {{name}}</slot> -->
   </div>
 </template>
 
