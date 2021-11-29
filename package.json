@@ -19,11 +19,12 @@
   ],
   "dependencies": {
     "file-saver": "^2.0.5",
+    "ionic-sdk": "github:bashu22tiwari/ionic-sdk",
     "lodash.mapkeys": "^4.6.0",
     "lodash.pick": "^4.4.0",
     "lodash.pickby": "^4.6.0",
     "papaparse": "^5.3.0",
-    "vue": "^2.6.12"
+    "vue": "^3.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.10",
